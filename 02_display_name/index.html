@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src = "display_name.js"></script>
+    </head>
+    <body>
+        <p>以下の空欄に名前を入力すると，その名前を挨拶とともに出力します．</p>
+        <div id = "input_form">
+            <label>名前: <input id = "blank"></label>
+            <input type = "button" id = "push_button" value = "enter" onclick = print_after_end(document,input_form,blank.value)>
+        </div>
+    </body>
+</html>
